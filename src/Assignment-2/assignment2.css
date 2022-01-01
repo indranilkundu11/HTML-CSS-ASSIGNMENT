@@ -5,3 +5,79 @@
 width: 100%;
 height: 100%;
 }
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    border: 1px solid black;
+}
+.page-logo{
+    width: 100px;
+    height: 100px;
+}
+header{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.page-header{
+    background-color: blueviolet;
+    height: 100px;
+}
+.page-header form{
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.page-header form input{
+    height: 30px;
+}
+header navbar{
+    border: 1px solid black;
+}
+header navbar nav ul{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+header navbar nav ul li {
+    display: inline-block;
+    margin:0px 30px ;
+}
+.page-body{
+    width: 100%;
+}
+.page-body aside,.page-body section{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0px 10px;
+}
+.page-body aside{
+    width: 15%;
+    height: 420px;
+    vertical-align: top;
+}
+.page-body section{
+    width: 30%;
+    height: 100%;
+}
+aside ul li{
+    margin:15px 0px;
+}
+.img-link{
+    width: 130px;
+    height: 200px;
+}
+.row .img-link{
+    display: inline-block;
+    margin: 5px;
+}
+footer{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;   
+}
