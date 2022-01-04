@@ -1,7 +1,41 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container {
 width: 100%;
 height: 100%;
 }
+.content{
+    width: 60%;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 350px;
+    margin: 10px 20px;
+    border: 1px solid black;
+}
+.left-inline,.right-inline{
+    display: inline-block;
+    width: 40%;
+}
+.left-inline{
+    vertical-align: top;
+}
+.right-inline{
+    height: inherit;
+}
+#render-wiki{
+    height: 150px;
+    width: 60%;
+    margin: 10px;
+}
+.page-button{
+    background: black;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+    width: 150px;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+
