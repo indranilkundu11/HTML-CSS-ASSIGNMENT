@@ -4,4 +4,75 @@
 .container, .content {
 width: 100%;
 height: 100%;
+background-color: skyblue;
+}
+.content{
+    height:100% ;
+    width: 62%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.left-inline{
+    background-color: coral;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 350px;
+    height: 400px;
+
+}
+
+.page-img1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 400px;
+    width: 400px;
+}
+.page-img2{
+    position:relative;
+    right:25px;
+    top: 60px;
+
+    height: 300px;
+    width: 400px;
+
+}
+.right-inline{
+    height: 360px;
+    margin-top: 30px;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    
+}
+.page-button1{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color:coral ;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.page-button2{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:coral ;
+    border-radius: 20px; 
+    border-width: 0px;
+}
+h1,h2,p,.page-button1,.page-button2{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+p{
+    text-align: justify;
+    margin-right: 20px ;
+}
+h1,h2{
+    font-size: 40px;
 }
